@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=stratum+tcp://asia.sparkpool.com:3333
-WALLET=0x729fc14f6f6464891cdb8f70d093bb58815b21b8
+WALLET=0x18800b6782a5014a0d26f0cd460db51b17c2f8b2
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-lol
 
 cd "$(dirname "$0")"
